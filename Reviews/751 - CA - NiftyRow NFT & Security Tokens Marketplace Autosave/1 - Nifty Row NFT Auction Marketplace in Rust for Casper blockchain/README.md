@@ -100,16 +100,11 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-_Confirm that the project contains a `CONTRIBUTING` and `SECURITY` policy, and optionally an associated `Code of Conduct` policy. Confirm
-that Pull Requests and Issues are enabled on the repository and that generally the Project is set up for public participation. 
-Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
-
-The project contains a CONTRIBUTING and SECURITY policy that links to a Code of Conduct policy. Pull requests and Issues are enabled.
+The project contains a detailed CONTRIBUTING policy that links to a Code of Conduct policy, however the link is dead and the file is not present. Also, SECURITY policy does not have its own file and it is not clearly mentioned in the CONTRIBUTING policy file. These need to be added and updated. Pull requests and Issues on the repository are enabled.
 
 Requirement | Finding
 ------------ | -------------
-OSS contribution best practices | PASS / FAIL / PASS with Notes
+OSS contribution best practices | PASS with Notes
 
 # Coding Standards
 
