@@ -112,6 +112,8 @@ OSS contribution best practices | PASS with Notes
 
 Source code is well-written and thought out. It is easily readable. General best coding practices are used throughout the project. Overall sufficient work is done.
 
+There are some commented out code that is still present in the source, which as a suggestion, should be removed from production branch in the future updates.
+
 
 # Final Conclusion
 
