@@ -36,9 +36,13 @@ https://github.com/Nifty-Row/casper-frontend | 6329982
 
 # Install & Usage Testing Procedure and Findings
 
-_Provide a detailed review of your install and usage testing of the project. Highlight any issues setting up the project,
-including shortcomings in the documentation/setup instructions. Test the usage of the project against the Acceptance Criteria
-provided for the grant milestone._
+Reviewer used an Ubuntu 20.04 LTS GitPod instance and a server provided by the OP for doing this review.
+
+Reviewer used the instructions provided in the README to setup the app. The project built without errors. But it gave some warnings about moderate severity vulnerabilities, which was also given by GitHub's Dependabot. However, since these are moderate, they are out of scope of this review.
+
+- [Installation Logs](assets/install.md)
+
+Reviewer used the provided websites for the rest of the review
 
 ## Overall Impression of usage testing
 
@@ -53,15 +57,13 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 # Unit / Automated Testing
 
-_Summarize the result of the unit testing / automated testing / integration testing provided in the Milestone. Feel free to include
-automated test output, either as text, image or other artifact. Provide a `PASS`, `FAIL`, or `PASS With Notes` for the requirements
-below. In the case of `PASS With Notes`, make sure that the notes for improvement are clearly spelled out in this section._
+The project does not contain any unit tests. Because of this, this requirement fails.
 
 Requirement | Finding
 ------------ | -------------
-Unit Tests - At least one positive path test | PASS / FAIL / PASS with Notes
-Unit Tests - At least one negative path test | PASS / FAIL / PASS with Notes
-Unit Tests - Additional path tests | PASS / FAIL / PASS with Notes
+Unit Tests - At least one positive path test | FAIL
+Unit Tests - At least one negative path test | FAIL
+Unit Tests - Additional path tests | FAIL
 
 # Documentation
 
